@@ -1,7 +1,7 @@
 
 import './App.css'
 import SayMyName from './components/SayMyName'
-import pessoa from './components/Pessoa'
+
 
 function App() {
   const nome = " de Oliveira"
@@ -12,11 +12,7 @@ function App() {
       <SayMyName nome = "Augusta"/> 
       <SayMyName nome = "Ferreira"/> 
       <SayMyName nome = {nome}/> 
-      <Pessoa 
-      foto="https://via.placeholder.com/150"
-      nome="Camila" 
-      idade="28"
-      profissão="Progamadora FullStack"/>
+
     </div>
   );
 }
